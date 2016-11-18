@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+// Import SASS Functions
+@import 
+    'modules/variables',
+    'modules/mixins';
+
+// Import 3rd Party Vendor Styles
+@import 'bourbon',
+        'neat';
+
+// Import Global & Base Styles
+@import 
+    'base/global',
+    'base/styles';
+
+// Import Reusable Elements
+@import 
+    'elements/elements';
+
+// Import Specific Components
+@import
+    'components/navigation';
+
+// Import Page Specific Styles
+@import
+    'pages/index';
+
+// Import Incomplete or testing styles
+@import 
+    'shame/shame';

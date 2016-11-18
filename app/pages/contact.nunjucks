@@ -1,0 +1,6 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+{% import 'macros/nav-macros.nunjucks' as nav %}
+{{nav.active('contact')}}
+<h1>This is the index brook</h1>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% macro active(activePage='home') %}
+ <nav class="topNav">
+        <div class="topNav__left">
+            <div class="logo"><p>logo</p></div>
+        </div>
+        <div class="topNav__right">
+            <ul class="navLinks">
+                <li class="navLinks__list">
+                    <a href="#" class="navLinks__item {%if activePage == 'home' %}active{% endif %}">Home</a>
+                </li>
+                 <li class="navLinks__list">
+                    <a href="#" class="navLinks__item {%if activePage == 'contact' %}active{% endif %}">Contact</a>
+                </li>
+                 <li class="navLinks__list">
+                    <a href="#" class="navLinks__item {%if activePage == 'about' %}active{% endif %}">About</a>
+                </li>
+            </ul> 
+        </div>
+</nav>
+{% endmacro %}

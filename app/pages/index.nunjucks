@@ -1,0 +1,23 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import 'macros/nav-macros.nunjucks' as nav %}
+{{nav.active('home')}}
+
+<div class="block1"><p>some text block 22</p>
+            <div class="innerblock1"><p>inner block 1 text</p></div>
+            <div class="innerblock2"><p>innner block 2 text</p>
+                <div class="interblock3"><p>within the 2nd block</p></div>
+            </div>
+</div>
+
+ <div class="gallery">
+  {% for image in images %}
+  <div class="gallery__item">
+    <img src="{{image.src}}" alt="{{image.alt}}">
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

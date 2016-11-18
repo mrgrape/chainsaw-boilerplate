@@ -1,0 +1,32 @@
+.block1 {
+    @include outer-container;
+    background: #fff;
+}
+
+.innerblock1 {
+    @include span-columns(8);
+    background: #ddd;
+}
+
+.innerblock2 {
+    @include span-columns(4);
+    background: #ddd;
+}
+
+.interblock3 p {
+    color: red;
+    background: #555;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.interblock3 h1 {
+    font-style: italic;
+font-weight: bold;
+font-size: .8em;
+line-height: 1.2;
+font-family: Arial, sans-serif;
+}
+.taco {
+    z-index: 4000;
+}

@@ -1,0 +1,44 @@
+.topNav {
+    height: 70px;
+    width: 100%;
+    background: -webkit-linear-gradient(left, blue, teal);
+    background: -o-linear-gradient(left, blue, teal);
+    background: linear-gradient(to right, blue, teal);
+    &__left, &__right {
+        display: inline-block;
+        padding: 1rem;
+    }
+    &__left {
+        float: left;
+    }
+    &__right {
+        float: right;
+    }
+}
+.navLinks {
+    &__list {
+        display: inline-block;
+    }
+}
+.box {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.box {
+    background: hsl(134, 50%, 50%);
+}
+.box {
+    border: 1px solid silver;
+}
+
+.box {
+    border: 1px solid silver;
+}
+.box {
+    z-index: 5000;
+}
+.loox {
+    transform: translate3d(0, 0, 0);
+}
