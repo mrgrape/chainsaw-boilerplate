@@ -2,6 +2,10 @@
   "name": "Chainsaw-Dev-Template",
   "version": "1.0.0",
   "description": "Dev Build for Front End Development",
+	"engines": {
+    "node": ">=0.12.0 ~5.9.0",
+    "npm": ">=2.14.12 ~3.7.3"
+  },
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
