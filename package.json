@@ -1,12 +1,12 @@
 {
-  "name": "sprint-dev-template",
-  "version": "0.0.0",
+  "name": "Chainsaw-Dev-Template",
+  "version": "1.0.0",
   "description": "Dev Build for Front End Development",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Grape",
+  "author": "MrGrape",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.17.5",
